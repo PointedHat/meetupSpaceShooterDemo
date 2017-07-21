@@ -41,6 +41,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AA2AE10E1F220F4100195AE5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AA4B15001F220EB9008803F9 /* AppDelegate.swift */,
+				AA4B150A1F220EB9008803F9 /* Main.storyboard */,
+				AA4B150F1F220EB9008803F9 /* LaunchScreen.storyboard */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 		AA4B14F41F220EB9008803F9 = {
 			isa = PBXGroup;
 			children = (
@@ -60,14 +70,12 @@
 		AA4B14FF1F220EB9008803F9 /* meetupSpaceShooter */ = {
 			isa = PBXGroup;
 			children = (
-				AA4B15001F220EB9008803F9 /* AppDelegate.swift */,
+				AA2AE10E1F220F4100195AE5 /* Supporting Files */,
 				AA4B15021F220EB9008803F9 /* GameScene.sks */,
 				AA4B15041F220EB9008803F9 /* Actions.sks */,
 				AA4B15061F220EB9008803F9 /* GameScene.swift */,
 				AA4B15081F220EB9008803F9 /* GameViewController.swift */,
-				AA4B150A1F220EB9008803F9 /* Main.storyboard */,
 				AA4B150D1F220EB9008803F9 /* Assets.xcassets */,
-				AA4B150F1F220EB9008803F9 /* LaunchScreen.storyboard */,
 				AA4B15121F220EB9008803F9 /* Info.plist */,
 			);
 			path = meetupSpaceShooter;
@@ -314,6 +322,7 @@
 				AA4B15171F220EB9008803F9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
